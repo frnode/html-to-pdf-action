@@ -1,20 +1,23 @@
 {
   "name": "html-to-pdf-action",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "html to pdf action for github action",
   "main": "lib/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fifsky/html-to-pdf-action.git"
+    "url": "git+https://github.com/frnode/html-to-pdf-action"
   },
-  "homepage": "https://github.com/fifsky/html-to-pdf-action#readme",
+  "homepage": "https://github.com/frnode/html-to-pdf-action#readme",
   "keywords": [
     "actions",
     "container",
     "toolkit",
     "pdf"
   ],
-  "author": "fifsky@gmail.com",
+  "author": "frnode",
+  "contributors": [
+    "fifsky"
+  ],
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.0.0",
@@ -27,7 +30,7 @@
     "serve-static": "^1.14.1"
   },
   "devDependencies": {
-    "puppeteer": "~1.17.0",
-    "@types/node": "^10.10.4"
+    "puppeteer": "latest",
+    "@types/node": "^16.0.0"
   }
 }

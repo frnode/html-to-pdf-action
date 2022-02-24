@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 1
 
       - name: html to pdf
-        uses: fifsky/html-to-pdf-action@master
+        uses: frnode/html-to-pdf-action@master
         with:
           htmlFile: ./example.html
           outputFile: ./example.pdf

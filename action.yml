@@ -1,6 +1,6 @@
 name: "HTML to PDF"
 description: "Converts HTML file to PDF."
-author: "fifsky@gmail.com"
+author: "frnode"
 inputs:
   htmlFile:
     description: "html file path"
