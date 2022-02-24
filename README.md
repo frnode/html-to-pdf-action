@@ -6,7 +6,7 @@ A [GitHub Action](https://github.com/features/actions) that converts a HTML file
 
 ```yml
 - name: html to pdf
-  uses: fifsky/html-to-pdf-action@master
+  uses: frnode/html-to-pdf-action@master
   with:
     htmlFile: ./public/index.html
     outputFile: ./public/resume.pdf
