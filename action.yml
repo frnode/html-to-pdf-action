@@ -1,4 +1,4 @@
-name: "HTML to PDF"
+name: "HTML to PDF (chrome)"
 description: "Converts HTML file to PDF."
 author: "frnode"
 inputs:
