@@ -1,6 +1,6 @@
 {
   "name": "html-to-pdf-action",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "html to pdf action for github action",
   "main": "lib/main.js",
   "repository": {
@@ -20,17 +20,18 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.0.0",
-    "@actions/exec": "^1.0.0",
-    "@actions/github": "^1.0.0",
-    "@actions/io": "^1.0.0",
-    "@actions/tool-cache": "^1.0.0",
-    "auto-bind": "^2.1.0",
-    "finalhandler": "^1.1.2",
-    "serve-static": "^1.14.1"
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.1.1",
+    "@actions/io": "^1.1.2",
+    "@actions/tool-cache": "^2.0.1",
+    "auto-bind": "^1.2.1",
+    "finalhandler": "^1.2.0",
+    "pkg-dir": "^5.0.0",
+    "serve-static": "^1.15.0"
   },
   "devDependencies": {
-    "puppeteer": "latest",
-    "@types/node": "^16.0.0"
+    "@types/node": "^18.13.0",
+    "puppeteer": "latest"
   }
 }
